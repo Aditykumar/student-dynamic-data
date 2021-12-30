@@ -11,7 +11,7 @@ import { useContext } from 'react/cjs/react.development';
 import { StudentContext } from './StudentContext';
 
 function Student() {
-const [students,setStudents] = useContext(StudentContext)
+const [students] = useContext(StudentContext)
     
     return (
         <div>
