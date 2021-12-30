@@ -1,5 +1,4 @@
 import { StudentProvider } from './Components/StudentContext';
-
 import Header from './Components/Header';
 import Home from './Components/Home';
 import Student from './Components/Student';

@@ -18,5 +18,4 @@ function Header() {
         </div>
     )
 }
-// f48fb1
-export default Header
+export default Header;

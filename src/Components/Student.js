@@ -4,7 +4,7 @@ import { StudentContext } from './StudentContext';
 import StudentTable from "./StudentTable";
 import { Link } from "react-router-dom";
 
-export default function Student() {
+function Student() {
   const [students,setStudents] = useContext(StudentContext)
 
   return (
@@ -19,3 +19,4 @@ export default function Student() {
     </div>
   );
 }
+export default Student;
