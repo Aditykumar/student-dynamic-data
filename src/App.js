@@ -6,7 +6,7 @@ import ContactUs from './Components/ContactUs';
 import AddStudent from './Components/AddStudent';
 import Edit from './Components/Edit';
 import './Components/Style.css';
-import { BrowserRouter as Router, Routes, Route,useParam} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (

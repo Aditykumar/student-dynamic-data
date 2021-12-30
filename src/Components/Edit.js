@@ -21,7 +21,7 @@ function Edit() {
   }
     useEffect(() => {
       console.log(studentId);
-      students.map((prevState) => {
+      students.forEach((prevState) => {
         if (prevState.id === studentId) {
         console.log(prevState.id);
 
@@ -33,7 +33,7 @@ function Edit() {
           });
         }
       });
-    }, []);
+    }, [studentId,students]);
 
 
     const HandleSubmit=()=>{
