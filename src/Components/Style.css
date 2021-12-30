@@ -1,0 +1,65 @@
+
+.headStudent{
+   margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content:center;
+   
+  
+}
+.headingStudent{
+font-size: 35px;
+margin-right: 170px;
+}
+.tableContainer{
+/* width: 800px; */
+display: flex;
+    justify-content: center;
+}
+.btnStudent{
+    color: rgb(4, 51, 35);
+    border-radius: 12px;
+    border: none;
+    width: 200px;
+    font-size: 20px;
+    background: rgb(238, 154, 154);
+    height: 50px;
+}
+.editBox{
+    width: auto;
+    height: 450px;
+    position: relative;
+}
+.editContainer{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 259px;
+    padding-top: 84px;
+    left: 300px;
+    top: 10px;
+}
+.EditBtn{
+    
+        position: absolute;
+        right: 190px;
+        bottom: 78px;
+        width: 200px;
+        height: 40px ;
+        border: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 25px;
+        background: #035c11;
+    
+}
+.HeaderLink{
+    margin-left: 180px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+
+}
+
