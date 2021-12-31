@@ -36,6 +36,10 @@ function Edit() {
 
 
     const HandleSubmit=()=>{
+      if(!((stu.name)&&(stu.age)&&(stu.course)&&(stu.batch))){
+        alert("All fields are mandetory")
+        return
+     }
       setStudents((prevState)=>
             prevState.map((student)=>
             (student.id===studentId)?
@@ -55,6 +59,7 @@ function Edit() {
     return (
         <>
       <div className="editBox">
+          <div className="center">Edit Student Data</div>
         <Box
           component="form"
           sx={{

@@ -17,16 +17,22 @@ function AddStudent() {
 
   }
     const HandleSubmit=()=>{
+      if(!((dataa.name)&&(dataa.age)&&(dataa.course)&&(dataa.batch))){
+         alert("All fields are mandetory")
+         return
+      }
   
         let getLastStdId= ((students.length)+1);
         const storeRecord = {...dataa,id:getLastStdId.toString()}
-console.log(storeRecord);
+        console.log(storeRecord);
         setStudents([...students,storeRecord])
 
         Navigate('/student')
     }
     return (
         <>
+          <div className="center">Add New Student</div>
+
       <div className="editBox">
         <Box
           component="form"
